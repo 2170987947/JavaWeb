@@ -26,7 +26,7 @@
 </head>
 <body>
 
- 
+
 <%
 	// ÉèÖÃÒ³Ãæ²»»º´æ
 	response.setHeader("Pragma", "No-cache") ;
