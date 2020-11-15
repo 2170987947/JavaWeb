@@ -7,7 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-
 	<h2>ËÄ×Ö³ÉÓï½ÓÁú</h2>
 	<%
 	String s=(String)application.getAttribute("message");
