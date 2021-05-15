@@ -21,3 +21,4 @@ create table article(
                         create_time timestamp,
                         foreign key(user_id) references user(id)
 );
+# insert into article(id, title) value (1, '收edede');

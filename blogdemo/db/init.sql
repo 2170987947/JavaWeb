@@ -1,5 +1,10 @@
 drop database if exists blogdemo;
+-- 四种方式
 create database blogdemo character set utf8mb4;
+# create database blogdemo default character set utf8mb4;
+# create database blogdemo1  charset utf8mb4;
+# create database blogdemo1 default charset utf8mb4;
+
 use blogdemo;
 create table user (
     id int primary key auto_increment,
@@ -34,7 +39,7 @@ insert into article(title, content, user_id) value ('插入排序', 'public ...'
 -- 主外键关联的表, 默认创建的主外键约束是 restrict 严格模式
 -- 比如从表有数据关联到主表某一行数据 X, 那 X 不能删.
 -- 真是的设计上是不删除物理数据, 在每一张表上设计一个字段, 表示是否有效.
-select id, username, password, nickname, sex, birthday, head from user;
-select id, title, content, create_time, view_count, user_id from article where user_id = 1;
-insert into article(title, content, user_id) value (? , ?, ?);
-update article set title = ?, content = ? where id = ?
+# select id, username, password, nickname, sex, birthday, head from user;
+# select id, title, content, create_time, view_count, user_id from article where user_id = 1;
+# insert into article(title, content, user_id) value (? , ?, ?);
+# update article set title = ?, content = ? where id = ?

@@ -1,6 +1,6 @@
 /* 前后端通信相关的配置,注释只允许使用多行方式 */
 {
-    "physicsPath": "/opt/apache-tomcat-9.0.24/webapps/upload/",/* 上传的物理地址，下面所有的上传组件都可以使用该属性 */
+    "physicsPath": "D:\\Program Files\\JetBrains\\apache-tomcat-8.5.57\\apache-tomcat-8.5.57\\webapps\\upload/",/* 上传的物理地址，下面所有的上传组件都可以使用该属性 */
     /* 上传图片配置项 */
     "imageActionName": "uploadimage", /* 执行上传图片的action名称 */
     "imageFieldName": "upfile", /* 提交的图片表单名称 */
